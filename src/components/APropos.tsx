@@ -4,7 +4,14 @@ export default function APropos() {
     <>
       <div className="container mx-auto px-4 ">
         <h2 className="text-3xl font-semibold mb-4">À propos</h2>
-        <div className="flex flex-row justify-evenly items-center gap-10 px-20 sm:gap-2 sm:px-2 wrap-anywhere" >
+        <div
+          className="
+  flex flex-row justify-evenly items-center gap-10 px-20 
+  sm:flex-col sm:gap-2 sm:px-2 
+  md:flex-col md:gap-2 md:px-2
+  flex-wrap
+"
+        >
           <div>
             <p>
               Je suis un ingénieur en informatique passionné par le
@@ -19,9 +26,13 @@ export default function APropos() {
               en application concrète.
             </p>
           </div>
-            <div>
-            <img src={profile} alt="ali" className="w-[1000px] hover-flip-keep object-cover rounded-full border-3 border-blue-950 shadow-blue-800 shadow-2xl " />
-            </div>
+          <div>
+            <img
+              src={profile}
+              alt="ali"
+              className="w-[1000px] hover-flip-keep object-cover rounded-full border-3 border-blue-950 shadow-blue-800 shadow-2xl "
+            />
+          </div>
         </div>
       </div>
     </>

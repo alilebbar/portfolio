@@ -4,7 +4,7 @@ export default function APropos() {
     <>
       <div className="container mx-auto px-4 ">
         <h2 className="text-3xl font-semibold mb-4">À propos</h2>
-        <div className="flex flex-row justify-evenly items-center gap-10 px-20" >
+        <div className="flex flex-row justify-evenly items-center gap-10 px-20 sm:gap-2 sm:px-2 wrap-anywhere" >
           <div>
             <p>
               Je suis un ingénieur en informatique passionné par le

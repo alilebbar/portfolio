@@ -1,0 +1,34 @@
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+.backGroundHero {
+  position: relative;
+  background-image: url("./assets/Hero.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  overflow: hidden;
+}
+
+.backGroundHero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #1e3a8a, #0f172a, #334155); /* couleurs plus contrastées */
+  background-size: 300% 300%;
+  animation: gradientBG 8s ease infinite; /* plus rapide */
+  opacity: 0.75; /* plus visible */
+  z-index: 0;
+}
+
+.backGroundHero > * {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

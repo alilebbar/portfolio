@@ -7,7 +7,7 @@ import nodeI from "../assets/logoLangages/nodeJs.webp";
 import expressI from "../assets/logoLangages/express.webp";
 import pythonI from "../assets/logoLangages/python.png";
 import postgresqlI from "../assets/logoLangages/postgresql.png";
-import mongodbI from "../assets/logoLangages/mongodb.jpg";
+import mongodbI from "../assets/logoLangages/mongoDB.jpg";
 
 const competenceData = [
   {

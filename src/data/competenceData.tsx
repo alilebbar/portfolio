@@ -1,13 +1,13 @@
-import htmlI from "../assets/logolangages/html.png";
-import cssI from "../assets/logolangages/css.png";
-import jsI from "../assets/logolangages/js.png";
-import tsI from "../assets/logolangages/ts.png";
-import reactI from "../assets/logolangages/react.png";
-import nodeI from "../assets/logolangages/nodeJs.webp";
-import expressI from "../assets/logolangages/express.webp";
-import pythonI from "../assets/logolangages/python.png";
-import postgresqlI from "../assets/logolangages/postgresql.png";
-import mongodbI from "../assets/logolangages/mongodb.jpg";
+import htmlI from "../assets/logoLangages/html.png";
+import cssI from "../assets/logoLangages/css.png";
+import jsI from "../assets/logoLangages/js.png";
+import tsI from "../assets/logoLangages/ts.png";
+import reactI from "../assets/logoLangages/react.png";
+import nodeI from "../assets/logoLangages/nodeJs.webp";
+import expressI from "../assets/logoLangages/express.webp";
+import pythonI from "../assets/logoLangages/python.png";
+import postgresqlI from "../assets/logoLangages/postgresql.png";
+import mongodbI from "../assets/logoLangages/mongodb.jpg";
 
 const competenceData = [
   {

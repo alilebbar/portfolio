@@ -11,9 +11,9 @@ export default function Contact() {
   return (
     <>
       <div className="max-w-3xl mx-auto px-6 text-center">
-        <h2 className="text-4xl font-bold text-gray-800 mb-6">Contacte-moi</h2>
+        <h2 className="text-4xl font-bold text-gray-800 mb-6">Contactez-moi</h2>
         <p className="text-gray-600 mb-8">
-          Tu as un projet ou une opportunité ? N'hésite pas à me contacter !
+          Vous avez un projet ou une opportunité ? N'hésitez pas à me contacter !
         </p>
 
         {/* Email direct */}
@@ -48,7 +48,7 @@ export default function Contact() {
           className="mt-10 space-y-4 max-w-md mx-auto text-left border border-gray-300 p-6 rounded-lg shadow-md"
         >
           <p className="text-gray-600 mt-8 mb-4">
-            Ou utilise le formulaire ci-dessous :
+            Ou utilisez le formulaire ci-dessous :
           </p>
           <input
             id="email"

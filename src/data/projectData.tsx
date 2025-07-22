@@ -4,8 +4,18 @@ import backBookImage from "../assets/projetImages/backbook.png";
 import todoImage from "../assets/projetImages/todo.png";
 import meteoImage from "../assets/projetImages/meteo.png";
 import XOImage from "../assets/projetImages/XO.png";
+import freeChatImage from "../assets/projetImages/freeChat.png";
 
 const projectData = [
+  {
+  nom: "FreeChat",
+  image: freeChatImage, 
+  description:
+    "Une application de chat en temps réel avec WebSocket, permettant aux utilisateurs de discuter librement sans inscription.",
+  technologies: ["React", "Tailwind CSS", "TypeScript", "Express", "WebSocket", "MongoDB"],
+  lien: "https://free-chat-x.netlify.app/" 
+}
+,  
   {
     nom: "Portfolio Personnel",
     image: portfolioImage,
